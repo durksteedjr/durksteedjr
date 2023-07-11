@@ -3,11 +3,20 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "lint": "pnpm lint:prettier",
+    "eslint": "eslint",
+    "lint": "pnpm lint:eslint && pnpm lint:prettier",
+    "lint:eslint": "eslint --fix './**/*.{js,json,ts,tsx}'",
     "lint:prettier": "prettier --write ./",
     "prettier": "prettier"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.44.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
     "prettier": "^3.0.0",
     "prettier-plugin-packagejson": "^2.4.5"
   }
