@@ -1,5 +1,14 @@
 {
   "name": "monorepo",
+  "version": "0.0.0",
   "private": true,
-  "version": "0.0.0"
+  "scripts": {
+    "lint": "pnpm lint:prettier",
+    "lint:prettier": "prettier --write ./",
+    "prettier": "prettier"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "prettier-plugin-packagejson": "^2.4.5"
+  }
 }
