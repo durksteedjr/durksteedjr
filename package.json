@@ -31,5 +31,12 @@
     "lint-staged": "^13.2.3",
     "prettier": "^3.0.0",
     "prettier-plugin-packagejson": "^2.4.5"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "allowedVersions": {
+        "@typescript-eslint/eslint-plugin": "^6.0.0"
+      }
+    }
   }
 }
