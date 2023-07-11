@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "changeset": "changeset",
     "commitlint": "commitlint",
     "eslint": "eslint",
     "husky": "husky",
@@ -14,9 +15,15 @@
     "lint:prettier": "prettier --write ./",
     "prepare": "pnpm prepare:husky",
     "prepare:husky": "husky install",
-    "prettier": "prettier"
+    "prettier": "prettier",
+    "publish": "pnpm changeset publish",
+    "publish:snapshot": "pnpm changeset publish --tag snapshot",
+    "version": "pnpm changeset version",
+    "version:snapshot": "pnpm changeset version --snapshot snapshot"
   },
   "devDependencies": {
+    "@changesets/changelog-git": "^0.1.14",
+    "@changesets/cli": "^2.26.2",
     "@commitlint/cli": "^17.6.6",
     "@commitlint/config-conventional": "^17.6.6",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
