@@ -3,13 +3,22 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "commitlint": "commitlint",
     "eslint": "eslint",
+    "husky": "husky",
+    "husky:commitlint": "commitlint --edit",
+    "husky:lint-staged": "lint-staged",
     "lint": "pnpm lint:eslint && pnpm lint:prettier",
-    "lint:eslint": "eslint --fix './**/*.{js,json,ts,tsx}'",
+    "lint-staged": "lint-staged",
+    "lint:eslint": "eslint --fix './**/*.{js,json,jsx,ts,tsx}'",
     "lint:prettier": "prettier --write ./",
+    "prepare": "pnpm prepare:husky",
+    "prepare:husky": "husky install",
     "prettier": "prettier"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.6.6",
+    "@commitlint/config-conventional": "^17.6.6",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "eslint": "^8.44.0",
@@ -17,6 +26,8 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-unused-imports": "^2.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
     "prettier": "^3.0.0",
     "prettier-plugin-packagejson": "^2.4.5"
   }
