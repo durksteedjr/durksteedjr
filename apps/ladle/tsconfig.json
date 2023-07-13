@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "lib": ["es2015"]
+  },
+  "extends": "../../tsconfig.json",
+  "include": ["src"]
+}
