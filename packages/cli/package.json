@@ -23,7 +23,7 @@
     "build": "pnpm build:assets && pnpm build:package",
     "build:assets": "ts-node ./scripts/buildAssets.ts",
     "build:package": "tsup",
-    "build:watch": "tsup --watch",
+    "dev": "tsup --watch",
     "ts-node": "ts-node",
     "tsc": "tsc",
     "tsup": "tsup",
