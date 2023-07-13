@@ -1,11 +1,23 @@
 {
   "$schema": "https://turbo.build/schema.json",
   "pipeline": {
+    "branch": {
+      "cache": false
+    },
     "build": {
       "dependsOn": ["^build"],
       "outputs": ["dist/**"]
     },
+    "create": {
+      "cache": false
+    },
     "dev": {
+      "cache": false
+    },
+    "generate": {
+      "cache": false
+    },
+    "push": {
       "cache": false
     },
     "typecheck": {
