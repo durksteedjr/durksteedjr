@@ -1,6 +1,6 @@
 .turbo
-assets
 dist
 node_modules
+packages/cli/assets
 
 .DS_Store

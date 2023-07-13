@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "build": "turbo build",
-    "build:watch": "turbo build:watch",
     "changeset": "changeset",
     "commitlint": "commitlint",
+    "dev": "turbo dev",
     "durksteedjr": "node ./packages/cli/dist/index.mjs",
     "eslint": "eslint",
     "husky": "husky",
@@ -19,8 +19,8 @@
     "prepare": "pnpm prepare:husky",
     "prepare:husky": "husky install",
     "prettier": "prettier",
-    "publish": "pnpm changeset publish",
-    "publish:snapshot": "pnpm changeset publish --tag snapshot",
+    "publish": "pnpm build && pnpm changeset publish",
+    "publish:snapshot": "pnpm build && pnpm changeset publish --tag snapshot",
     "typecheck": "turbo typecheck",
     "version": "pnpm changeset version",
     "version:snapshot": "pnpm changeset version --snapshot snapshot"
@@ -42,6 +42,7 @@
     "lint-staged": "^13.2.3",
     "prettier": "^3.0.0",
     "prettier-plugin-packagejson": "^2.4.5",
+    "prettier-plugin-tailwindcss": "^0.4.0",
     "turbo": "^1.10.7"
   },
   "pnpm": {
