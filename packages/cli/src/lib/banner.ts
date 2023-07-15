@@ -9,7 +9,7 @@ export const banner = () =>
     `\n${PAD}${chalk.bold(
       gradientString(
         colors.green[400],
-        colors.blue[400],
+        colors.cyan[400],
         colors.pink[400]
       )(">>> Durk Steed Jr.")
     )}\n`
