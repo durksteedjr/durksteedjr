@@ -12,13 +12,9 @@
   },
   "license": "MIT",
   "author": "Durk Steed Jr. <durksteedjr@proton.me>",
-  "exports": {
-    ".": "./dist/index.mjs",
-    "./assets/*": "./assets/*"
-  },
+  "exports": "./dist/index.mjs",
   "types": "./dist/index.d.mts",
   "files": [
-    "assets",
     "dist"
   ],
   "scripts": {

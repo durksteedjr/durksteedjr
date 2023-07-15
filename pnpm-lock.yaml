@@ -71,6 +71,9 @@ importers:
       '@ladle/react':
         specifier: ^2.15.0
         version: 2.15.0(@types/node@20.4.1)(react-dom@18.2.0)(react@18.2.0)
+      clsx:
+        specifier: ^1.2.1
+        version: 1.2.1
       react:
         specifier: ^18.2.0
         version: 18.2.0
