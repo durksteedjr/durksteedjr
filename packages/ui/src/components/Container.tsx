@@ -9,7 +9,10 @@ export const Container = ({
   className,
   ...props
 }: CenterProps) => (
-  <Center className={clsx("max-w-3xl", className)} {...props}>
+  <Center
+    className={clsx("w-full max-w-2xl", className)}
+    {...props}
+  >
     {children}
   </Center>
 );
