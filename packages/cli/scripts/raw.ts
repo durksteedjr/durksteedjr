@@ -1,7 +1,9 @@
 export const RAW_JSON = `${JSON.stringify(
   {
     scripts: {
+      build: "echo build",
       commitlint: "commitlint",
+      durksteedjr: "durksteedjr",
       eslint: "eslint",
       husky: "husky",
       "husky:commitlint": "commitlint --edit",
@@ -13,7 +15,9 @@ export const RAW_JSON = `${JSON.stringify(
       "lint:prettier": "prettier --write ./",
       prepare: "pnpm prepare:husky",
       "prepare:husky": "husky install",
-      prettier: "prettier"
+      prettier: "prettier",
+      "test:typecheck": "tsc --noEmit",
+      tsc: "tsc"
     },
     pnpm: {
       peerDependencyRules: {
@@ -28,4 +32,4 @@ export const RAW_JSON = `${JSON.stringify(
 )}\n`;
 
 export const RAW_TXT =
-  "pnpm i @commitlint/cli @commitlint/config-conventional @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-plugin-json eslint-plugin-prettier eslint-plugin-simple-import-sort eslint-plugin-unused-imports eslint-plugin-yaml husky lint-staged prettier prettier-plugin-packagejson -D\n\nchmod ug+x .husky/*\n";
+  "pnpm i @commitlint/cli @commitlint/config-conventional @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-plugin-json eslint-plugin-prettier eslint-plugin-simple-import-sort eslint-plugin-unused-imports eslint-plugin-yaml husky lint-staged prettier prettier-plugin-packagejson typescript -D\n\nchmod ug+x .husky/*\n";

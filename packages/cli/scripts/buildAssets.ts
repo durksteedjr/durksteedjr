@@ -6,15 +6,16 @@ import {
   ASSETS_SETUP_RAW_PATH
 } from "./constants";
 
-const main = () =>
+const main = () => {
   ASSETS_SETUP_COPY_FILES.forEach(([source, dest]) =>
     copySync(source, dest)
   );
 
-mkdirSync(ASSETS_SETUP_RAW_PATH, { recursive: true });
+  mkdirSync(ASSETS_SETUP_RAW_PATH, { recursive: true });
 
-ASSETS_SETUP_RAW_FILES.forEach(([dest, content]) =>
-  writeFileSync(dest, content)
-);
+  ASSETS_SETUP_RAW_FILES.forEach(([dest, content]) =>
+    writeFileSync(dest, content)
+  );
+};
 
 if (require.main === module) main();

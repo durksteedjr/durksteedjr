@@ -2,16 +2,13 @@ import { join } from "path";
 
 import { RAW_JSON, RAW_TXT } from "./raw";
 
+export const OVERRIDES_PATH = join(__dirname, "overrides");
+
 export const ROOT_PATH = join(__dirname, "..", "..", "..");
 
 export const ASSETS_PATH = join(__dirname, "..", "assets");
 
 export const ASSETS_SETUP_PATH = join(ASSETS_PATH, "setup");
-
-export const ASSETS_SETUP_RAW_PATH = join(
-  ASSETS_SETUP_PATH,
-  "raw"
-);
 
 export const ASSETS_SETUP_COPY_FILES = [
   [
@@ -31,7 +28,7 @@ export const ASSETS_SETUP_COPY_FILES = [
     join(ASSETS_SETUP_PATH, ".commitlintrc.json")
   ],
   [
-    join(ROOT_PATH, ".eslintrc.json"),
+    join(OVERRIDES_PATH, ".eslintrc.json"),
     join(ASSETS_SETUP_PATH, ".eslintrc.json")
   ],
   [
@@ -39,18 +36,27 @@ export const ASSETS_SETUP_COPY_FILES = [
     join(ASSETS_SETUP_PATH, ".lintstagedrc.json")
   ],
   [
-    join(ROOT_PATH, ".prettierignore"),
+    join(OVERRIDES_PATH, ".prettierignore"),
     join(ASSETS_SETUP_PATH, ".prettierignore")
   ],
   [
-    join(ROOT_PATH, ".prettierrc.json"),
+    join(OVERRIDES_PATH, ".prettierrc.json"),
     join(ASSETS_SETUP_PATH, ".prettierrc.json")
   ],
   [
     join(ROOT_PATH, ".renovaterc.json"),
     join(ASSETS_SETUP_PATH, ".renovaterc.json")
+  ],
+  [
+    join(ROOT_PATH, "tsconfig.json"),
+    join(ASSETS_SETUP_PATH, "tsconfig.json")
   ]
 ];
+
+export const ASSETS_SETUP_RAW_PATH = join(
+  ASSETS_SETUP_PATH,
+  "raw"
+);
 
 export const ASSETS_SETUP_RAW_FILES = [
   [join(ASSETS_SETUP_PATH, "raw", "json.json"), RAW_JSON],
