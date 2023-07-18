@@ -10,7 +10,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@durksteedjr/ui": "0.0.0",
+    "@durksteedjr/ui": "1.0.0",
     "@ladle/react": "^2.15.0",
     "clsx": "^1.2.1",
     "react": "^18.2.0",
