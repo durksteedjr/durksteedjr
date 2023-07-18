@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo/db",
+  "name": "db",
   "version": "0.0.0",
   "private": true,
   "exports": "./src/index.ts",
