@@ -29,6 +29,6 @@ jobs:
         shell: bash
 
       - run: |
-          pnpm version:snapshot
-          pnpm publish:snapshot
+          pnpm ci:version:snapshot
+          pnpm ci:publish:snapshot
         shell: bash

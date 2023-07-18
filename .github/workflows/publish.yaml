@@ -29,10 +29,10 @@ jobs:
 
       - uses: changesets/action@v1
         with:
-          version: pnpm version
+          version: pnpm ci:version
           commit: "ci(changesets): version packages"
           title: "ci(changesets): version packages"
-          publish: pnpm publish
+          publish: pnpm ci:publish
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
