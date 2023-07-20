@@ -48,7 +48,7 @@ export const ASSETS_SETUP_COPY_FILES = [
     join(ASSETS_SETUP_PATH, ".renovaterc.json")
   ],
   [
-    join(ROOT_PATH, "tsconfig.json"),
+    join(ROOT_PATH, "configs", "tsconfig", "tsconfig.json"),
     join(ASSETS_SETUP_PATH, "tsconfig.json")
   ]
 ];
