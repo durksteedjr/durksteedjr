@@ -1,0 +1,24 @@
+import { Grid, Span } from "@durksteedjr/ui";
+import { Meta } from "@storybook/blocks";
+import Link from "next/link";
+
+import { BadgeLink } from "../components";
+
+<Meta title="Docs/Overview" />
+
+# @durksteedjr/ui
+
+<Grid className="!mt-4 grid-cols-2 gap-4 md:!mt-8 md:gap-6">
+  <BadgeLink
+    href="https://github.com/durksteedjr/monorepo/tree/main/packages/cli"
+    target="_blank"
+  >
+    <Span>GitHub</Span>
+  </BadgeLink>
+  <BadgeLink
+    href="https://www.npmjs.com/package/@durksteedjr/ui"
+    target="_blank"
+  >
+    <Span>NPM</Span>
+  </BadgeLink>
+</Grid>
