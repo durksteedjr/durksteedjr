@@ -2,6 +2,7 @@
   "name": "@durksteedjr/ui",
   "version": "1.0.0",
   "description": "@durksteedjr/ui",
+  "homepage": "https://ui.durksteedjr.com",
   "bugs": {
     "url": "https://github.com/durksteedjr/monorepo/issues"
   },
