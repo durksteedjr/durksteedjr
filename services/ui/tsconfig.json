@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "lib": ["es2020"]
+    "jsx": "react-jsx"
   },
   "extends": "@configs/tsconfig/tsconfig.json",
   "include": ["src"]

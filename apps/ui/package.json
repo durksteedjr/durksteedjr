@@ -1,5 +1,5 @@
 {
-  "name": "ui",
+  "name": "@apps/ui",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -11,8 +11,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@durksteedjr/colors": "workspace:*",
     "@durksteedjr/ui": "workspace:*",
+    "@services/ui": "workspace:*",
     "clsx": "^1.2.1",
     "next": "^13.4.10",
     "react": "^18.2.0",
@@ -20,6 +20,8 @@
     "react-icons": "^4.10.1"
   },
   "devDependencies": {
+    "@configs/tailwindcss": "workspace:*",
+    "@configs/tsconfig": "workspace:*",
     "@storybook/addon-essentials": "^7.1.0",
     "@storybook/addon-interactions": "^7.1.0",
     "@storybook/addon-links": "^7.1.0",

@@ -8,7 +8,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/durksteedjr/monorepo",
-    "directory": "packages/cli"
+    "directory": "durksteedjr/cli"
   },
   "license": "MIT",
   "author": "Durk Steed Jr. <durksteedjr@proton.me>",
@@ -38,6 +38,7 @@
     "word-wrap": "^1.2.3"
   },
   "devDependencies": {
+    "@configs/tsconfig": "workspace:*",
     "@types/fs-extra": "^11.0.1",
     "@types/gradient-string": "^1.1.2",
     "@types/node": "^20.4.1",

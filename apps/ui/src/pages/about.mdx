@@ -1,24 +1,36 @@
 import { Grid, Span } from "@durksteedjr/ui";
+import { LinkBadge, LinkHover } from "@services/ui";
 import { Meta } from "@storybook/blocks";
 import Link from "next/link";
-
-import { BadgeLink } from "../components";
 
 <Meta title="Docs/Overview" />
 
 # @durksteedjr/ui
 
 <Grid className="!mt-4 grid-cols-2 gap-4 md:!mt-8 md:gap-6">
-  <BadgeLink
-    href="https://github.com/durksteedjr/monorepo/tree/main/packages/cli"
+  <LinkBadge
+    href="https://github.com/durksteedjr/monorepo/tree/main/durksteedjr/ui"
+    isOutlineArrow
     target="_blank"
   >
     <Span>GitHub</Span>
-  </BadgeLink>
-  <BadgeLink
+  </LinkBadge>
+  <LinkBadge
     href="https://www.npmjs.com/package/@durksteedjr/ui"
+    isOutlineArrow
     target="_blank"
   >
     <Span>NPM</Span>
-  </BadgeLink>
+  </LinkBadge>
 </Grid>
+
+<br />
+
+<LinkHover
+  className="hover:text-gray-800"
+  href="https://durksteedjr.com"
+  isOutlineArrow
+  target="\_blank"
+>
+  <Span>Durk Steed Jr.</Span>
+</LinkHover>
