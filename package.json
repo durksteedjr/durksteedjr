@@ -15,7 +15,7 @@
     "db:generate": "turbo run generate --filter=db",
     "db:push": "turbo dev push --filter=db",
     "dev": "turbo dev",
-    "durksteedjr": "node ./packages/cli/dist/index.mjs",
+    "durksteedjr": "node ./durksteedjr/cli/dist/index.mjs",
     "eslint": "eslint",
     "husky": "husky",
     "husky:commitlint": "commitlint --edit",
