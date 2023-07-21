@@ -71,6 +71,9 @@ importers:
       '@durksteedjr/ui':
         specifier: workspace:*
         version: link:../../durksteedjr/ui
+      '@services/links':
+        specifier: workspace:*
+        version: link:../../services/links
       '@services/ui':
         specifier: workspace:*
         version: link:../../services/ui
@@ -142,7 +145,7 @@ importers:
         specifier: ^5.1.6
         version: 5.1.6
 
-  configs/rehype: {}
+  configs/moonlitii: {}
 
   configs/tailwindcss:
     devDependencies:
@@ -244,8 +247,20 @@ importers:
         specifier: ^5.1.6
         version: 5.1.6
 
+  services/links:
+    devDependencies:
+      '@configs/tsconfig':
+        specifier: workspace:*
+        version: link:../../configs/tsconfig
+      typescript:
+        specifier: ^5.1.6
+        version: 5.1.6
+
   services/ui:
     dependencies:
+      '@configs/moonlitii':
+        specifier: workspace:*
+        version: link:../../configs/moonlitii
       '@configs/tsconfig':
         specifier: workspace:*
         version: link:../../configs/tsconfig

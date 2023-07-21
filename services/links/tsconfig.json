@@ -1,8 +1,6 @@
 {
   "compilerOptions": {
-    "esModuleInterop": true,
-    "jsx": "react-jsx",
-    "resolveJsonModule": true
+    "lib": ["es2015"]
   },
   "extends": "@configs/tsconfig/tsconfig.json",
   "include": ["src"]
