@@ -12,6 +12,18 @@ export const links = {
     href: "https://www.npmjs.com/package/@durksteedjr/cli",
     text: "NPM"
   },
+  colorsFigma: {
+    href: "https://www.figma.com/community/file/1263131602655900093/%40durksteedjr%2Fcolors",
+    text: "Figma"
+  },
+  colorsGitHub: {
+    href: "https://github.com/durksteedjr/monorepo/tree/main/durksteedjr/colors",
+    text: "GitHub"
+  },
+  colorsNPM: {
+    href: "https://www.npmjs.com/package/@durksteedjr/colors",
+    text: "NPM"
+  },
   durkSteedJr: {
     href: "https://durksteedjr.com",
     text: "Durk Steed Jr."
