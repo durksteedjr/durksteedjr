@@ -1,12 +1,16 @@
 import chalk from "chalk";
 
-import { log } from "../lib";
+import { commands as libCommands, log } from "../lib";
 
 export const commands = () => {
   log("Commands:");
 
-  log(`${chalk.bold("about")}: About Durk.\n${chalk.bold(
-    "commands"
-  )}: List commands.\n${chalk.bold("setup")}: Copy setup files.
-  `);
+  log(
+    `${Object.entries(libCommands)
+      .map(
+        ([command, data]) =>
+          `${chalk.bold(command)}: ${data.description}`
+      )
+      .join("\n")}`
+  );
 };
