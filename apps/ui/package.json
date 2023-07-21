@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@durksteedjr/ui": "workspace:*",
+    "@services/links": "workspace:*",
     "@services/ui": "workspace:*",
     "clsx": "^1.2.1",
     "next": "^13.4.10",

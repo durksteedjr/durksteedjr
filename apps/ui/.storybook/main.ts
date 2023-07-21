@@ -14,6 +14,7 @@ const config: StorybookConfig = {
     name: "@storybook/nextjs",
     options: {}
   },
+  staticDirs: ["../public"],
   stories: [
     "../src/pages/**/*.mdx",
     "../src/stories/**/*.stories.@(js|jsx|mjs|ts|tsx)"
