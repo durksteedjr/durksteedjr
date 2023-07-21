@@ -1,5 +1,5 @@
 {
-  "name": "@services/links",
+  "name": "@services/sdk",
   "version": "0.0.0",
   "private": true,
   "exports": "./src/index.ts",

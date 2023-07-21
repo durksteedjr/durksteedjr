@@ -3,7 +3,15 @@ export type Link = {
   text: string;
 };
 
-export const links: { [K: string]: Link } = {
+export const links = {
+  cliGitHub: {
+    href: "https://github.com/durksteedjr/monorepo/tree/main/durksteedjr/cli",
+    text: "GitHub"
+  },
+  cliNPM: {
+    href: "https://www.npmjs.com/package/@durksteedjr/cli",
+    text: "NPM"
+  },
   durkSteedJr: {
     href: "https://durksteedjr.com",
     text: "Durk Steed Jr."
@@ -20,4 +28,4 @@ export const links: { [K: string]: Link } = {
     href: "https://www.npmjs.com/package/@durksteedjr/ui",
     text: "NPM"
   }
-};
+} satisfies { [K: string]: Link };
