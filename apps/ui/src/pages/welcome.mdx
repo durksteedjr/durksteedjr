@@ -1,14 +1,14 @@
 import { Grid } from "@durksteedjr/ui";
-import { links } from "@services/links";
-import { LinkBadge, Snippet, Wrapper } from "@services/ui";
+import { links } from "@services/sdk";
+import { LinkBadge, Prose, Snippet } from "@services/ui";
 import { Meta } from "@storybook/blocks";
 
 <Meta title="Welcome" />
 
-<Wrapper>
+<Prose>
   <article>
     <h1>@durksteedjr/ui</h1>
-    <Grid className="!mt-4 grid-cols-2 gap-4 md:!mt-8">
+    <Grid className="!mt-4 grid-cols-2 gap-4 md:!mt-6">
       {[links.uiGitHub, links.uiNPM].map((link) => (
         <LinkBadge
           href={link.href}
@@ -23,7 +23,7 @@ import { Meta } from "@storybook/blocks";
     <h2>Installation</h2>
     <Snippet>pnpm i @durksteedjr/ui</Snippet>
     <h2>Acknowledgements</h2>
-    <Grid className="!mt-4 gap-4 sm:grid-cols-2 md:!mt-8">
+    <Grid className="!mt-4 gap-4 sm:grid-cols-2 md:!mt-6">
       {[links.durkSteedJr, links.mitLicense].map((link) => (
         <LinkBadge
           href={link.href}
@@ -36,4 +36,4 @@ import { Meta } from "@storybook/blocks";
       ))}
     </Grid>
   </article>
-</Wrapper>
+</Prose>
