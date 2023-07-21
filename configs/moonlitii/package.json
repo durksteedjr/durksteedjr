@@ -1,8 +1,8 @@
 {
-  "name": "@configs/rehype",
+  "name": "@configs/moonlitii",
   "version": "0.0.0",
   "private": true,
   "files": [
-    "moonlitII.json"
+    "moonlitii.json"
   ]
 }
