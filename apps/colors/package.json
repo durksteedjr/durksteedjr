@@ -1,0 +1,36 @@
+{
+  "name": "@apps/colors",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev -p 3002",
+    "next": "next",
+    "start": "next start",
+    "tailwindcss": "tailwindcss",
+    "tsc": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@durksteedjr/colors": "workspace:*",
+    "@durksteedjr/ui": "workspace:*",
+    "@services/sdk": "workspace:*",
+    "@services/ui": "workspace:*",
+    "clsx": "^1.2.1",
+    "copy-to-clipboard": "^3.3.3",
+    "next": "^13.4.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@configs/tailwindcss": "workspace:*",
+    "@configs/tsconfig": "workspace:*",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.25",
+    "storybook": "^7.1.0",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^5.1.6"
+  }
+}
