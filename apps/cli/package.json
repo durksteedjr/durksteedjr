@@ -1,11 +1,12 @@
 {
-  "name": "@apps/ui",
+  "name": "@apps/cli",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "storybook build",
-    "dev": "storybook dev -p 3003",
-    "storybook": "storybook",
+    "build": "next build",
+    "dev": "next dev -p 3001",
+    "next": "next",
+    "start": "next start",
     "tailwindcss": "tailwindcss",
     "tsc": "tsc",
     "typecheck": "tsc --noEmit"
@@ -22,14 +23,6 @@
   "devDependencies": {
     "@configs/tailwindcss": "workspace:*",
     "@configs/tsconfig": "workspace:*",
-    "@storybook/addon-essentials": "^7.1.0",
-    "@storybook/addon-interactions": "^7.1.0",
-    "@storybook/addon-links": "^7.1.0",
-    "@storybook/addon-onboarding": "^1.0.7",
-    "@storybook/blocks": "^7.1.0",
-    "@storybook/nextjs": "^7.1.0",
-    "@storybook/react": "^7.1.0",
-    "@storybook/testing-library": "^0.2.0",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "autoprefixer": "^10.4.14",
