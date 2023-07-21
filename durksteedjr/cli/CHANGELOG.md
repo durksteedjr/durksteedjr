@@ -1,5 +1,11 @@
 # @durksteedjr/cli
 
+## 1.1.1
+
+### Patch Changes
+
+- fa6331e: 1.1.1
+
 ## 1.1.0
 
 ### Minor Changes
