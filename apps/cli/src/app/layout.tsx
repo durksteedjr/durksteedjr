@@ -1,7 +1,11 @@
 import "../../globals.css";
 
 import { Box, Container } from "@durksteedjr/ui";
-import { Prose } from "@services/ui";
+import {
+  OverlayGradient,
+  OverlayGrid,
+  Prose
+} from "@services/ui";
 import { Nunito_Sans } from "next/font/google";
 import type { ReactNode } from "react";
 
@@ -22,6 +26,8 @@ interface LayoutProps {
 const Layout = ({ children }: LayoutProps) => (
   <html lang="en">
     <body>
+      <OverlayGradient />
+      <OverlayGrid />
       <Box className={nunitoSans.className}>
         <Prose className="px-6 py-12 md:py-24">
           <Container>
