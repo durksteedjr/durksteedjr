@@ -6,7 +6,7 @@
     "resolveJsonModule": true,
     "target": "esnext"
   },
-  "extends": "@configs/tsconfig/tsconfig.json",
+  "extends": "../../configs/tsconfig/tsconfig.json",
   "include": ["scripts", "src"],
   "ts-node": {
     "compilerOptions": {

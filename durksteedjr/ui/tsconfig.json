@@ -4,6 +4,6 @@
     "module": "nodenext",
     "moduleResolution": "nodenext"
   },
-  "extends": "@configs/tsconfig/tsconfig.json",
+  "extends": "../../configs/tsconfig/tsconfig.json",
   "include": ["src"]
 }
