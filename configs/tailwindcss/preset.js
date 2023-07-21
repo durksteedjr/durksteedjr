@@ -18,6 +18,9 @@ module.exports = {
         teal: colors.teal,
         white: colors.white,
         yellow: colors.yellow
+      },
+      fontFamily: {
+        sans: ["var(--font-nunito-sans)"]
       }
     }
   }
