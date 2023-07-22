@@ -16,7 +16,7 @@ export const Badge = ({
   <Box
     className={clsx(
       "rounded-xl border bg-white px-4 py-2 text-sm md:text-base",
-      { "hover:bg-gray-100/50": isHover },
+      { "hover:bg-gray-100": isHover },
       className
     )}
     {...props}

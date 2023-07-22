@@ -1,41 +1,45 @@
 import { Grid } from "@durksteedjr/ui";
 import { links } from "@services/sdk";
-import { LinkBadge, Prose, Snippet } from "@services/ui";
+import {
+  LinkBadge,
+  Prose,
+  Snippet,
+  Wrapper
+} from "@services/ui";
 import { Meta } from "@storybook/blocks";
 
 <Meta title="Welcome" />
 
-<Prose>
-  <article>
+<Wrapper>
+  <Grid className="!mb-6 gap-4 sm:grid-cols-2 md:!mb-8">
+    {[links.uiGitHub, links.uiNPM].map((link) => (
+      <LinkBadge
+        href={link.href}
+        isOutlineArrowUpRight
+        key={link.text}
+        target="_blank"
+      >
+        {link.text}
+      </LinkBadge>
+    ))}
+  </Grid>
+  <Prose>
     <h1>@durksteedjr/ui</h1>
-    <Grid className="!mt-6 gap-4 sm:grid-cols-2">
-      {[links.uiGitHub, links.uiNPM].map((link) => (
-        <LinkBadge
-          href={link.href}
-          isOutlineArrow
-          key={link.text}
-          target="_blank"
-        >
-          {link.text}
-        </LinkBadge>
-      ))}
-    </Grid>
     <h2>Installation</h2>
     <Snippet>pnpm i @durksteedjr/ui</Snippet>
     <h2>Usage</h2>
-    <Snippet>{`import {Badge} from "@durksteedjr/ui";`}</Snippet>
-    <h2>Acknowledgements</h2>
-    <Grid className="!mt-6 gap-4 sm:grid-cols-2">
-      {[links.durkSteedJr, links.mitLicense].map((link) => (
-        <LinkBadge
-          href={link.href}
-          isOutlineArrow
-          key={link.text}
-          target="_blank"
-        >
-          {link.text}
-        </LinkBadge>
-      ))}
-    </Grid>
-  </article>
-</Prose>
+    <Snippet>{`import {\u00A0Badge\u00A0} from "@durksteedjr/ui";`}</Snippet>
+  </Prose>
+  <Grid className="!mt-24 gap-4 sm:grid-cols-2 md:!mt-32">
+    {[links.durkSteedJr, links.mitLicense].map((link) => (
+      <LinkBadge
+        href={link.href}
+        isOutlineArrowUpRight
+        key={link.text}
+        target="_blank"
+      >
+        {link.text}
+      </LinkBadge>
+    ))}
+  </Grid>
+</Wrapper>

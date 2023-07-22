@@ -6,14 +6,14 @@ import { HiOutlineArrowUpRight } from "react-icons/hi2";
 
 export interface LinkBadgeProps
   extends AnchorHTMLAttributes<HTMLAnchorElement> {
-  isOutlineArrow?: boolean;
+  isOutlineArrowUpRight?: boolean;
 }
 
 export const LinkBadge = ({
   children,
   className,
   href,
-  isOutlineArrow = false,
+  isOutlineArrowUpRight = false,
   ...props
 }: LinkBadgeProps) => (
   <Link href={href} {...props}>
@@ -22,14 +22,14 @@ export const LinkBadge = ({
         "font-normal !text-gray-600 hover:text-inherit",
         {
           "flex items-center justify-between space-x-3 md:space-x-4":
-            isOutlineArrow
+            isOutlineArrowUpRight
         },
         className
       )}
       isHover
     >
       {children}
-      {isOutlineArrow && <HiOutlineArrowUpRight />}
+      {isOutlineArrowUpRight && <HiOutlineArrowUpRight />}
     </Badge>
   </Link>
 );

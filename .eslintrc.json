@@ -5,6 +5,7 @@
     "plugin:@next/next/recommended"
   ],
   "ignorePatterns": [
+    ".contentlayer",
     ".next",
     "node_modules",
     "storybook-static"

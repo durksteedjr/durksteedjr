@@ -1,6 +1,8 @@
+.contentlayer
 .next
 .turbo
 dist
 storybook-static
 
 pnpm-lock.yaml
+tsconfig.tsbuildinfo
