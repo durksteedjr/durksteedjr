@@ -4,7 +4,7 @@ import { Box, Container } from "@durksteedjr/ui";
 import {
   OverlayGradient,
   OverlayGrid,
-  Prose
+  Wrapper
 } from "@services/ui";
 import { Nunito_Sans } from "next/font/google";
 import type { ReactNode } from "react";
@@ -29,11 +29,9 @@ const Layout = ({ children }: LayoutProps) => (
       <OverlayGradient />
       <OverlayGrid />
       <Box className={nunitoSans.className}>
-        <Prose className="px-6 py-12 md:py-24">
-          <Container>
-            <article>{children}</article>
-          </Container>
-        </Prose>
+        <Wrapper className="px-6 py-12 md:py-24">
+          <Container>{children}</Container>
+        </Wrapper>
       </Box>
     </body>
   </html>
