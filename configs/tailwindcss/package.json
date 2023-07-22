@@ -9,7 +9,6 @@
     "tailwindcss": "tailwindcss"
   },
   "devDependencies": {
-    "@durksteedjr/colors": "workspace:*",
     "tailwindcss": "^3.3.2"
   }
 }
