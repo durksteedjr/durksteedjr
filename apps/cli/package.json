@@ -23,11 +23,11 @@
   "devDependencies": {
     "@configs/tailwindcss": "workspace:*",
     "@configs/tsconfig": "workspace:*",
+    "@durksteedjr/colors": "workspace:*",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.25",
-    "storybook": "^7.1.0",
     "tailwindcss": "^3.3.2",
     "typescript": "^5.1.6"
   }
