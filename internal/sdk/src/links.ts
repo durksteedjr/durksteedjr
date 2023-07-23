@@ -1,7 +1,4 @@
-export type Link = {
-  href: string;
-  text: string;
-};
+import type { Link } from "./types";
 
 export const links = {
   durkSteedJr: {
