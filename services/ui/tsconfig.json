@@ -1,9 +1,0 @@
-{
-  "compilerOptions": {
-    "esModuleInterop": true,
-    "jsx": "react-jsx",
-    "resolveJsonModule": true
-  },
-  "extends": "@configs/tsconfig/tsconfig.json",
-  "include": ["src"]
-}

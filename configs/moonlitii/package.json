@@ -1,8 +1,0 @@
-{
-  "name": "@configs/moonlitii",
-  "version": "0.0.0",
-  "private": true,
-  "files": [
-    "moonlitii.json"
-  ]
-}
