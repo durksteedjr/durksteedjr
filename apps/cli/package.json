@@ -7,7 +7,7 @@
     "dev": "pnpm next:dev",
     "next": "next",
     "next:build": "pnpm next build",
-    "next:dev": "pnpm next dev -p 3001",
+    "next:dev": "pnpm next dev",
     "next:start": "pnpm next start",
     "start": "pnpm next:start",
     "tsc": "tsc",

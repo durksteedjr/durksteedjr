@@ -6,7 +6,7 @@ import { PAD } from "./constants";
 
 export const banner = () =>
   console.log(
-    `\n${PAD}${chalk.bold(
+    `${PAD}${chalk.bold(
       gradientString(
         colors.green[400],
         colors.cyan[400],

@@ -9,7 +9,7 @@ export const links = {
     text: "Durk Steed Jr."
   },
   mitLicense: {
-    href: "https://github.com/durksteedjr/monorepo/blob/main/LICENSE.md",
+    href: "https://github.com/durksteedjr/packages/blob/main/LICENSE.md",
     text: "MIT License"
   }
 } satisfies { [K: string]: Link };

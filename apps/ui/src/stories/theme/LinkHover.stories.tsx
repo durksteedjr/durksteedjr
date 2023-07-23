@@ -23,3 +23,11 @@ export const Default: Story = {
     href: ""
   }
 };
+
+export const Active: Story = {
+  args: {
+    children: "Children",
+    href: "",
+    isActive: true
+  }
+};
