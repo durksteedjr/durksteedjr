@@ -6,7 +6,7 @@ export const links = {
     text: "Figma"
   },
   gitHub: {
-    href: "https://github.com/durksteedjr/packages/tree/main/durksteedjr/colors",
+    href: "https://github.com/durksteedjr/packages/tree/main/packages/colors",
     text: "GitHub"
   },
   npm: {

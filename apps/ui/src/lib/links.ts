@@ -2,7 +2,7 @@ import type { Link } from "@internal/sdk";
 
 export const links = {
   gitHub: {
-    href: "https://github.com/durksteedjr/packages/tree/main/durksteedjr/ui",
+    href: "https://github.com/durksteedjr/packages/tree/main/packages/ui",
     text: "GitHub"
   },
   npm: {
