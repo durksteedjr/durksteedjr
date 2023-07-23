@@ -1,5 +1,11 @@
 # @durksteedjr/cli
 
+## 1.2.0
+
+### Minor Changes
+
+- 01e91b2: 1.2.0
+
 ## 1.1.2
 
 ### Patch Changes
