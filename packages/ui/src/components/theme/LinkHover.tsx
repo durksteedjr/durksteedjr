@@ -1,33 +1,26 @@
-"use client";
-
 import clsx from "clsx";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import type { AnchorHTMLAttributes } from "react";
 
 import { Hover } from "../core";
 
 export interface LinkHoverProps
-  extends AnchorHTMLAttributes<HTMLAnchorElement> {}
+  extends AnchorHTMLAttributes<HTMLAnchorElement> {
+  isActive?: boolean;
+}
 
 export const LinkHover = ({
   children,
   className,
   href,
+  isActive = false,
   ...props
-}: LinkHoverProps) => {
-  const pathname = usePathname();
-
-  return (
-    <Link href={href} {...props}>
-      <Hover
-        className={clsx(
-          { "text-inherit": href === pathname },
-          className
-        )}
-      >
-        {children}
-      </Hover>
-    </Link>
-  );
-};
+}: LinkHoverProps) => (
+  <Link href={href} {...props}>
+    <Hover
+      className={clsx({ "text-inherit": isActive }, className)}
+    >
+      {children}
+    </Hover>
+  </Link>
+);

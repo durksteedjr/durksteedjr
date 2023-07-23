@@ -11,7 +11,7 @@ import { Card } from "../core";
 export interface LinkCardProps
   extends AnchorHTMLAttributes<HTMLAnchorElement> {
   isOutlineArrowUpRight?: boolean;
-  isOutlineRightArrow?: boolean;
+  isOutlineArrowRight?: boolean;
 }
 
 export const LinkCard = ({
@@ -19,7 +19,7 @@ export const LinkCard = ({
   className,
   href,
   isOutlineArrowUpRight = false,
-  isOutlineRightArrow = false,
+  isOutlineArrowRight = false,
   ...props
 }: LinkCardProps) => (
   <Link href={href} {...props}>
@@ -27,7 +27,7 @@ export const LinkCard = ({
       className={clsx(
         {
           "group relative":
-            isOutlineArrowUpRight || isOutlineRightArrow
+            isOutlineArrowUpRight || isOutlineArrowRight
         },
         className
       )}
@@ -37,7 +37,7 @@ export const LinkCard = ({
       {isOutlineArrowUpRight && (
         <HiOutlineArrowUpRight className="absolute right-6 top-[1.375rem]" />
       )}
-      {isOutlineRightArrow && (
+      {isOutlineArrowRight && (
         <HiOutlineArrowRight className="absolute right-6 top-[1.375rem] hidden group-hover:inline-block" />
       )}
     </Card>

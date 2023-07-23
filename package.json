@@ -16,7 +16,7 @@
     "commitlint": "commitlint",
     "commitlint:edit": "pnpm commitlint --edit",
     "dev": "pnpm turbo:dev",
-    "durksteedjr": "node ./durksteedjr/cli/dist/index.mjs",
+    "durksteedjr": "node ./packages/cli/dist/index.mjs",
     "eslint": "eslint",
     "eslint:lint": "pnpm eslint --fix './**/*.{js,json,jsx,ts,tsx,yaml}'",
     "husky": "husky",
@@ -30,7 +30,7 @@
     "prettier:lint": "pnpm prettier --write ./",
     "turbo": "turbo",
     "turbo:build": "pnpm turbo run build",
-    "turbo:dev": "pnpm turbo run build",
+    "turbo:dev": "pnpm turbo run dev",
     "turbo:typecheck": "pnpm turbo run typecheck",
     "typecheck": "pnpm turbo:typecheck"
   },
