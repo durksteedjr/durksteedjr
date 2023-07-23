@@ -3,6 +3,6 @@
     "esModuleInterop": true,
     "jsx": "react-jsx"
   },
-  "extends": "@configs/tsconfig/tsconfig.json",
+  "extends": "@internal/tsconfig/tsconfig.json",
   "include": ["src"]
 }

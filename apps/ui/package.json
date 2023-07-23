@@ -3,26 +3,26 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "storybook build",
-    "dev": "storybook dev -p 3003",
+    "build": "pnpm storybook:build",
+    "dev": "pnpm storybook:dev",
     "storybook": "storybook",
-    "tailwindcss": "tailwindcss",
+    "storybook:build": "pnpm storybook build",
+    "storybook:dev": "pnpm storybook dev -p 3002",
     "tsc": "tsc",
-    "typecheck": "tsc --noEmit"
+    "tsc:typecheck": "pnpm tsc --noEmit",
+    "typecheck": "pnpm tsc:typecheck"
   },
   "dependencies": {
     "@durksteedjr/ui": "workspace:*",
-    "@services/sdk": "workspace:*",
-    "@services/ui": "workspace:*",
+    "@internal/sdk": "workspace:*",
     "clsx": "^1.2.1",
     "next": "^13.4.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@configs/tailwindcss": "workspace:*",
-    "@configs/tsconfig": "workspace:*",
     "@durksteedjr/colors": "workspace:*",
+    "@internal/tsconfig": "workspace:*",
     "@storybook/addon-essentials": "^7.1.0",
     "@storybook/addon-interactions": "^7.1.0",
     "@storybook/addon-links": "^7.1.0",

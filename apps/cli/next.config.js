@@ -1,11 +1,10 @@
 /** @type {import("next").NextConfig} */
 const config = {
   transpilePackages: [
-    "@configs/tailwindcss",
-    "@configs/tsconfig",
+    "@durksteedjr/colors",
     "@durksteedjr/ui",
-    "@services/sdk",
-    "@services/ui"
+    "@internal/sdk",
+    "@internal/tsconfig"
   ]
 };
 

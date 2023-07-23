@@ -4,10 +4,8 @@ const colors = require("@durksteedjr/colors/colors.json");
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,mdx,ts,tsx}",
-    "../../durksteedjr/ui/dist/**/*.mjs",
-    "../../services/ui/**/*.{ts,tsx}"
+    "../../packages/ui/dist/**/*.mjs"
   ],
-  presets: ["@configs/tailwindcss/preset.js"],
   theme: {
     extend: {
       colors: {
@@ -25,8 +23,8 @@ module.exports = {
         white: colors.white,
         yellow: colors.yellow
       },
-      screens: {
-        xs: "355px"
+      fontFamily: {
+        sans: ["var(--font-nunito-sans)"]
       }
     }
   }

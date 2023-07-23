@@ -19,6 +19,6 @@
     "skipLibCheck": true,
     "strict": false
   },
-  "extends": "@configs/tsconfig/tsconfig.json",
+  "extends": "@internal/tsconfig/tsconfig.json",
   "include": ["src", ".next/types/**/*.ts"]
 }

@@ -3,19 +3,21 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "next build",
-    "dev": "next dev -p 3002",
+    "build": "pnpm next:build",
+    "dev": "pnpm next:dev",
     "next": "next",
-    "start": "next start",
-    "tailwindcss": "tailwindcss",
+    "next:build": "pnpm next build",
+    "next:dev": "pnpm next dev -p 3001",
+    "next:start": "pnpm next start",
+    "start": "pnpm next:start",
     "tsc": "tsc",
-    "typecheck": "tsc --noEmit"
+    "tsc:typecheck": "pnpm tsc --noEmit",
+    "typecheck": "pnpm tsc:typecheck"
   },
   "dependencies": {
     "@durksteedjr/colors": "workspace:*",
     "@durksteedjr/ui": "workspace:*",
-    "@services/sdk": "workspace:*",
-    "@services/ui": "workspace:*",
+    "@internal/sdk": "workspace:*",
     "clsx": "^1.2.1",
     "copy-to-clipboard": "^3.3.3",
     "next": "^13.4.10",
@@ -23,8 +25,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@configs/tailwindcss": "workspace:*",
-    "@configs/tsconfig": "workspace:*",
+    "@internal/tsconfig": "workspace:*",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "autoprefixer": "^10.4.14",
