@@ -1,6 +1,6 @@
 {
   "name": "@durksteedjr/cli",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "@durksteedjr/cli",
   "homepage": "https://cli.durksteedjr.com",
   "bugs": {
@@ -34,7 +34,7 @@
     "typecheck": "pnpm tsc:typecheck"
   },
   "dependencies": {
-    "@durksteedjr/colors": "1.0.0",
+    "@durksteedjr/colors": "2.0.0",
     "chalk": "^5.3.0",
     "commander": "^11.0.0",
     "fs-extra": "^11.1.1",
