@@ -9,9 +9,9 @@ import {
   OverlayGrid,
   Wrapper
 } from "@durksteedjr/ui";
+import type { LayoutProps } from "@internal/sdk";
 import { links } from "@internal/sdk";
 import { Nunito_Sans } from "next/font/google";
-import type { ReactNode } from "react";
 
 import {
   links as libLinks,
@@ -25,10 +25,6 @@ const nunitoSans = Nunito_Sans({
   subsets: ["latin"],
   variable: "--font-nunito-sans"
 });
-
-interface LayoutProps {
-  children: ReactNode;
-}
 
 const Layout = ({ children }: LayoutProps) => (
   <html lang="en">
