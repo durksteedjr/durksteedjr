@@ -1,5 +1,16 @@
 # @durksteedjr/cli
 
+## 2.0.0
+
+### Major Changes
+
+- 463389d: 2.0.0
+
+### Patch Changes
+
+- Updated dependencies [463389d]
+  - @durksteedjr/colors@2.0.0
+
 ## 1.2.0
 
 ### Minor Changes
