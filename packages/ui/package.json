@@ -1,6 +1,6 @@
 {
   "name": "@durksteedjr/ui",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "@durksteedjr/ui",
   "homepage": "https://ui.durksteedjr.com",
   "bugs": {
@@ -29,7 +29,7 @@
     "typecheck": "pnpm tsc:typecheck"
   },
   "dependencies": {
-    "@durksteedjr/colors": "2.0.0",
+    "@durksteedjr/colors": "2.0.1",
     "clsx": "^1.2.1",
     "next": "^13.4.10",
     "react": "^18.2.0",

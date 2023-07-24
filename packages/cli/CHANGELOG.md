@@ -1,5 +1,13 @@
 # @durksteedjr/cli
 
+## 2.0.1
+
+### Patch Changes
+
+- fdf41a6: 2.0.1
+- Updated dependencies [fdf41a6]
+  - @durksteedjr/colors@2.0.1
+
 ## 2.0.0
 
 ### Major Changes

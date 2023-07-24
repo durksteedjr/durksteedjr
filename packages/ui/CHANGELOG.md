@@ -1,5 +1,13 @@
 # @durksteedjr/ui
 
+## 2.0.2
+
+### Patch Changes
+
+- fdf41a6: 2.0.2
+- Updated dependencies [fdf41a6]
+  - @durksteedjr/colors@2.0.1
+
 ## 2.0.1
 
 ### Patch Changes
