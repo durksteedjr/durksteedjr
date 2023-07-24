@@ -9,10 +9,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/durksteedjr/packages",
-    "directory": "durksteedjr/colors"
+    "directory": "packages/colors"
   },
   "license": "MIT",
-  "author": "Durk Steed Jr. <durksteedjr@proton.me>",
+  "author": "Durk Steed Jr. <durksteedjr.code@proton.me>",
   "files": [
     "colors.json"
   ],

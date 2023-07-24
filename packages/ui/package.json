@@ -9,10 +9,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/durksteedjr/packages",
-    "directory": "durksteedjr/ui"
+    "directory": "packages/ui"
   },
   "license": "MIT",
-  "author": "Durk Steed Jr. <durksteedjr@proton.me>",
+  "author": "Durk Steed Jr. <durksteedjr.code@proton.me>",
   "exports": "./dist/index.mjs",
   "types": "./dist/index.d.mts",
   "files": [

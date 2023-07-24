@@ -9,6 +9,10 @@ export const links = {
     href: "https://github.com/durksteedjr/packages/tree/main/packages/colors",
     text: "GitHub"
   },
+  mitLicense: {
+    href: "https://github.com/durksteedjr/packages/tree/main/packages/colors/LICENSE.md",
+    text: "MIT License"
+  },
   npm: {
     href: "https://www.npmjs.com/package/@durksteedjr/colors",
     text: "NPM"

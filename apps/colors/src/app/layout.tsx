@@ -55,7 +55,7 @@ const Layout = ({ children }: LayoutProps) => (
             <main>{children}</main>
             <footer>
               <Grid className="mt-24 gap-4 sm:grid-cols-2 md:mt-32">
-                {[links.durkSteedJr, links.mitLicense].map(
+                {[links.durkSteedJr, libLinks.mitLicense].map(
                   (link) => (
                     <LinkBadge
                       href={link.href}
