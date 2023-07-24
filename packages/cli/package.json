@@ -9,10 +9,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/durksteedjr/packages",
-    "directory": "durksteedjr/cli"
+    "directory": "packages/cli"
   },
   "license": "MIT",
-  "author": "Durk Steed Jr. <durksteedjr@proton.me>",
+  "author": "Durk Steed Jr. <durksteedjr.code@proton.me>",
   "bin": {
     "durksteedjr": "./dist/index.mjs"
   },
