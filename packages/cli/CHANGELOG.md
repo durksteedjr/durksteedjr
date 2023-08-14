@@ -1,5 +1,11 @@
 # @durksteedjr/cli
 
+## 2.0.2
+
+### Patch Changes
+
+- 91a7a18: 2.0.2
+
 ## 2.0.1
 
 ### Patch Changes
