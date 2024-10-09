@@ -1,7 +1,0 @@
-{
-  "compilerOptions": {
-    "lib": ["es2015"]
-  },
-  "extends": "@internal/tsconfig/tsconfig.json",
-  "include": ["src"]
-}

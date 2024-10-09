@@ -1,3 +1,2 @@
-- [`@durksteedjr/cli`](/packages/cli/README.md)
-- [`@durksteedjr/colors`](/packages/colors/README.md)
-- [`@durksteedjr/ui`](/packages/ui/README.md)
+- [`@durksteedjr/cli`](/@durksteedjr/cli/README.md)
+- [`@durksteedjr/colors`](/@durksteedjr/colors/README.md)

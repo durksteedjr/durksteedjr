@@ -1,0 +1,22 @@
+{
+  "name": "@durksteedjr/colors",
+  "version": "2.0.1",
+  "description": "@durksteedjr/colors",
+  "homepage": "https://durksteedjr.com/docs/colors",
+  "bugs": {
+    "url": "https://github.com/durksteedjr/durksteedjr/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/durksteedjr/durksteedjr",
+    "directory": "@durksteedjr/colors"
+  },
+  "license": "MIT",
+  "author": "Durk Steed Jr. <contact@durksteedjr.com>",
+  "files": [
+    "colors.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
