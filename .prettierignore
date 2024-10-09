@@ -1,7 +1,5 @@
-.next
-.turbo
-dist
-storybook-static
+.turbo/
+dist/
 
 pnpm-lock.yaml
 tsconfig.tsbuildinfo

@@ -1,0 +1,49 @@
+{
+  "name": "@durksteedjr/cli",
+  "version": "2.0.2",
+  "description": "@durksteedjr/cli",
+  "homepage": "https://durksteedjr.com/docs/cli",
+  "bugs": {
+    "url": "https://github.com/durksteedjr/durksteedjr/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/durksteedjr/durksteedjr",
+    "directory": "@durksteedjr/cli"
+  },
+  "license": "MIT",
+  "author": "Durk Steed Jr. <contact@durksteedjr.com>",
+  "bin": {
+    "durksteedjr": "./dist/index.mjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "pnpm run tsup",
+    "dev": "pnpm run tsup:watch",
+    "tsc": "tsc",
+    "tsc:typecheck": "pnpm run tsc --noEmit",
+    "tsup": "tsup",
+    "tsup:watch": "pnpm run tsup --watch",
+    "typecheck": "pnpm run tsc:typecheck"
+  },
+  "dependencies": {
+    "@durksteedjr/colors": "2.0.1",
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0",
+    "fs-extra": "^11.1.1",
+    "gradient-string": "^2.0.2",
+    "word-wrap": "^1.2.3"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/gradient-string": "^1.1.2",
+    "@types/node": "^20.4.1",
+    "tsup": "^7.1.0",
+    "typescript": "^5.1.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
