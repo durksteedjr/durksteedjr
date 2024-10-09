@@ -7,7 +7,7 @@
     "changeset": "changeset",
     "changeset:publish": "pnpm run changeset publish",
     "changeset:version": "pnpm run changeset version",
-    "ci:publish": "pnpm run build && pnpm run changeset:publish",
+    "ci:publish": "pnpm run build && pnpm publish && pnpm run changeset:publish",
     "ci:version": "pnpm run changeset:version",
     "commitlint": "commitlint",
     "commitlint:edit": "pnpm run commitlint --edit",
