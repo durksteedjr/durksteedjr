@@ -29,7 +29,7 @@
     "typecheck": "pnpm run tsc:typecheck"
   },
   "dependencies": {
-    "@durksteedjr/colors": "2.0.2",
+    "@durksteedjr/colors": "workspace:*",
     "chalk": "^5.3.0",
     "commander": "^11.0.0",
     "fs-extra": "^11.1.1",
