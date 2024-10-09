@@ -1,5 +1,16 @@
 # @durksteedjr/cli
 
+## 3.0.0
+
+### Major Changes
+
+- 2e7f817: 10/09/2024
+
+### Patch Changes
+
+- Updated dependencies [2e7f817]
+  - @durksteedjr/colors@2.0.2
+
 ## 2.0.2
 
 ### Patch Changes
