@@ -6,5 +6,6 @@
     "resolveJsonModule": true,
     "target": "esnext"
   },
+  "exclude": ["dist/"],
   "include": ["**/*.ts"]
 }

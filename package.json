@@ -6,7 +6,6 @@
   "scripts": {
     "build": "pnpm run turbo:build",
     "changeset": "changeset",
-    "changeset:publish": "pnpm run changeset publish",
     "changeset:tag": "pnpm run changeset tag",
     "changeset:version": "pnpm run changeset version",
     "ci:publish": "pnpm run build && pnpm publish -r && pnpm run changeset:tag",
