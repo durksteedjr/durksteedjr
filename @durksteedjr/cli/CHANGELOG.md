@@ -1,5 +1,13 @@
 # @durksteedjr/cli
 
+## 3.0.1
+
+### Patch Changes
+
+- d3d922f: 10/10/2024
+- Updated dependencies [d3d922f]
+  - @durksteedjr/colors@2.0.3
+
 ## 3.0.0
 
 ### Major Changes

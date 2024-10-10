@@ -1,5 +1,11 @@
 # @durksteedjr/colors
 
+## 2.0.3
+
+### Patch Changes
+
+- d3d922f: 10/10/2024
+
 ## 2.0.2
 
 ### Patch Changes
