@@ -1,5 +1,11 @@
 # @durksteedjr/colors
 
+## 2.0.4
+
+### Patch Changes
+
+- 5a5f1fa: 10/13/2024
+
 ## 2.0.3
 
 ### Patch Changes
